@@ -26,7 +26,7 @@ function createGrid() {
         alert("Invalid entry. Please click on the \"Change Cell Size\" button to try again.");
         return;
     } else if (numberOfColumn > 100) {
-        alert("Too many! Please click on the \"Change Cell Size\" button to try again.");
+        alert("Too many! The entry must be no larger than 100. Please click on the \"Change Cell Size\" button to try again.");
         return;
     } else if (numberOfColumn < 1) {
         alert("The entry must be no lower than 1. Please click on the \"Change Cell Size\" button to try again.");
